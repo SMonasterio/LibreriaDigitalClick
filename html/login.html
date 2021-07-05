@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWlXMRdZLZouHvvtIDTw5IhBQXhCzeaC6Auw&usqp=CAU"
+    />
+
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+   
+
+    <title>Login</title>
+  </head>
+  <body>
+
+    <!--NAV BAR-->
+    <header>
+      <div class="navbar_color"> 
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a id="loginLink" class="navbar-brand" href="./login.html">
+          <img id="loginImg"
+          src="/img/login.png"
+
+            width="50"
+            height="50"
+            alt="login"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/html/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/busqueda.html">Búsqueda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./error.html">English books</a>
+            </li>
+          </ul>
+        </div>
+
+          <!--ACCESO DIRECTO LISTADO-->
+          <a class="navbar-brand ml-auto bd-highlight" href="./busqueda.html">
+
+            <img src="/img/dia-mundial-del-libro.png"
+            width="50" height="50" alt="Libreria" />
+          </a>
+        </nav>
+        </div>
+      </header>
+   <!--FIN LISTADO-->
+
+    <main>
+      <div id="container-img" class="container-fluid container-full-width-login">
+        <div id="overlay"
+            class="row d-flex justify-content-center align-items-center font-weight-bold container-presentation flex-column text-center">
+            <h2 class="text-uppercase font-weight-light mt-3"> </h2>
+            <h1 class="text-uppercase font-weight-bold">para acceder a <p> contenidos exclusivos:</p></h1>
+            <img src="" alt="" width="300">
+
+
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col col-md-6 offset-md-3">
+            <div class="card">
+
+              <h5 class="card-header">Iniciar sesión</h5>
+
+              <div class="card-body">
+                <!-- <form onsubmit="handleSubmit(event)"> -->
+                <form onsubmit="handleSubmit(event)">
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="email"
+                      id="userEmail"
+                      maxlength="50"
+                      onchange="handleChange(event)"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>Contraseña</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      id="userPassword"
+                      maxlength="50"
+                      onchange="handleChange(event)"
+                    />
+                  </div>
+                  <button
+                  class="btn btn-secondary"
+                  id="btnSubmit"
+                  type="submit"
+                >
+                  Entrar
+                </button>
+                <p>
+                  Si aún no tiene cuenta regístrese desde
+                  <a href="./registro.html">aquí</a>
+                </p>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  </hr>
+
+    <!-- FOOTER -->
+
+<footer class="info">
+             <section class="info mt-5">
+              <div class="container">
+              <div class="row text-center">
+                
+                  <div class="col-12 col-md-4 mt-5 ">
+                  <div class="logo">
+                    <a href="../html/index.html">
+                      <img
+                      src="../img/dia-mundial-del-libro.png"
+                        width="150"
+                        height="150"
+                        alt="login"
+                      />
+                    </a>
+                  </div>
+                </div>
+                
+      
+                
+                  <div class="col-12 col-md-4 ">
+                    <h5 class="iconos mt-3 text-center"><b>Síguenos</b></h5>
+                    <div class="icon">
+                    <a class="icon mt-5" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+                    <a class="icon mt-5" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                    <a class="icon mt-5" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+                    <a class="icon mt-5" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+               
+                
+                <div class="col-12 col-md-4 mb-2">
+                  <h5 class="titulo mt-3"><b>Librería digital</b></h5>
+                  <p>Todos los títulos a un solo click de distancia.</p>
+                  <hr />
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  Dirección: Shopping Portal Tucumán, Yerba Buena, Tucumán.
+                  <hr />
+                  <i class="fa fa-mobile" aria-hidden="true"></i>
+                  Teléfonos: 381 - 481 8202 / 410 9133 / 410 9169
+                  <hr />
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  Email: libreriaclick@gmail.com
+                  <hr /> 
+                  <a class="enlace" href="./error.html"><p>Políticas de privacidad</p></a>           
+                  
+                </div>
+              
+              </div>
+      
+            </div>
+          </section>
+      
+      
+          <div class="row">
+            <div class="col-12 text-center">
+              <hr />
+              <span
+                >Copyright 2021 - GRUPOROLLING S.A. CUIL:30-20202020-2 -Todos
+                los derechos reservados-</span
+              >
+              <hr />
+            </div>
+          </div>
+          </footer>
+
+          <!--FIN FOOTER-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/e5d73c5b57.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

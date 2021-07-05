@@ -1,0 +1,108 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background:#998888;
+    font-family: 'Roboto', sans-serif;
+
+      }
+      
+      .navbar_color{
+        background: #eee3d7;
+        
+      }
+      
+      #img_libro {
+          width: 100%;
+          object-fit: cover;
+        }
+        
+        .footer-wrap{
+          padding-top: 70px;
+          padding-bottom: 50px;
+          color: black;
+        }
+
+        .info{
+          background: #5A5454;
+          font-family: 'Roboto', sans-serif;
+        }
+
+      .iconos{
+        padding: 10px;
+      }
+      
+      .btn1,
+      .btn2{
+        margin: 5px;
+      }
+      
+      .ul{
+        
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        
+      }
+      .enlaces{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+      }
+  
+      .card2 {
+        display: flex;
+        margin: 10px 35px;
+        height:350px;
+        width: 260px;
+        background-color: #333;
+        border:solid;
+        border-top: lawngreen;
+        border-radius: 8px;
+        box-shadow: -1rem 0 2rem #000;
+     
+        transition: 0.4s ease-out;
+        position:relative;
+        left: 0px;
+      }
+      
+   .card2:hover {
+        transform: translateY(-20px);
+        transition: 0.4s ease-out;
+      }
+      
+   .card2:hover ~ .card {
+        position: relative;
+        left: 50px;
+        transition: 0.4s ease-out;
+      }
+      
+  
+      .logo {
+        margin-top: 10vh;
+    }
+  
+      .icon {
+        color: black;
+        margin-top: 15vh;
+        padding: 15px;
+    }
+  
+   .enlace{
+      color: black;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .nav-link{
+    color: #000;
+  }
+
+  .imgdos{
+    cursor: pointer;
+  }
+
+  .log1{
+    margin-left: 15px;
+  }
